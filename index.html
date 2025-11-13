@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DVA Billing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DVA Billing</h1>
+    <button onclick="window.location.href='services.html'">Service Cost</button>
+
+    <div class="bill-box">
+        <label>Patient Name:</label>
+        <input type="text" id="pname">
+
+        <label>Service:</label>
+        <input type="text" id="service">
+
+        <label>Amount:</label>
+        <input type="number" id="amount">
+
+        <button onclick="addBill()">Add</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
