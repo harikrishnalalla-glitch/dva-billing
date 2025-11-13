@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #fafafa;
+}
+h1 {
+    text-align: center;
+}
+.bill-box, .service-list {
+    margin-top: 20px;
+}
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+}
+button {
+    padding: 10px;
+}
